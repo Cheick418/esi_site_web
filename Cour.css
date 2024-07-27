@@ -1,0 +1,16 @@
+.content ul li{
+    list-style: none;
+} 
+.content img{
+    width: 100%;
+    height: 200px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black !important;
+
+}
+th,tr{
+    border: 1px solid black !important;
+}

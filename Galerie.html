@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie-ecole superieur d'informatique</title>
+    <link rel="stylesheet" href="Galerie.css">
+    <link rel="stylesheet" href="Nav.css">
+    <link rel="shortcut icon" href="image/logo.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="header">
+        <img src="image/logo.jpg" alt="Le logo de l'ESI">
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html" >Accueil</a></li>
+                <li><a href="Academie.html">Académie</a></li>
+                <li><a href="Admission.html">Admission</a></li>
+                <li><a href="Galerie.html" class="active">Galerie</a></li>
+            </ul>
+            <img src="image/menu-outline.svg" alt="Menu" class="menu-icon" id="menu-icon">
+        </div>
+    </div>
+
+    <div class="carousel">
+        <div class="list">
+            <div class="item" style="background-image: url('image/site22_1.jpg');">
+                <div class="content">
+                    <div class="title">Site du 22</div>
+                    <div class="des">Salle de cour de la premiere année</div>
+                </div>
+            </div>
+
+            <div class="item" style="background-image: url('image/site22_2.jpg');">
+                <div class="content">
+                    <div class="title">Site du 22</div>
+                    <div class="des">Administration</div>
+                </div>
+            </div>
+
+            <div class="item" style="background-image: url('image/site22_3.jpg');">
+                <div class="content">
+                    <div class="title">Site du 22</div>
+                    <div class="des">le portail de l'universite</div>
+                </div>
+            </div>
+
+            <div class="item" style="background-image: url('image/debut.jpg');">
+                <div class="content">
+                    <div class="title">Site du 22</div>
+                    <div class="des">le centre de l'université</div>
+                </div>
+            </div>
+
+            <div class="item" style="background-image: url('image/ordi.jpg');">
+                <div class="content">
+                    <div class="title">Site du 22</div>
+                    <div class="des">les ordinateurs de l'université</div>
+                </div>
+            </div>
+
+            <div class="item" style="background-image: url('image/nasso.jpg');">
+                <div class="content">
+                    <div class="title">Nasso</div>
+                    <div class="des">le portail du site de nasso</div>
+                </div>
+            </div>
+
+            <div class="item" style="background-image: url('image/nasso1.jpg');">
+                <div class="content">
+                    <div class="title">Nasso</div>
+                    <div class="des">Un batîment destiné aux cours</div>
+                </div>
+            </div>
+
+            <div class="item" style="background-image: url('image/nasso2.jpg');">
+                <div class="content">
+                    <div class="title">Nasso</div>
+                    <div class="des">Un batîment destiné aux cours</div>
+                </div>
+            </div>
+        </div>
+
+        <!--next prev button-->
+        <div class="arrows">
+            <button class="prev"><</button>
+            <button class="next">></button>
+        </div>
+
+        <!-- time running -->
+        <div class="timeRunning"></div>
+    </div>
+
+    <script src="Galerie.js"></script>
+    <script src="Menu.js"></script>
+</body>
+</html>

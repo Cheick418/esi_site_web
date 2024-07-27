@@ -1,0 +1,29 @@
+
+.content ul li {
+    position: relative;
+    list-style: none;
+}
+ 
+.content ul li img {
+    margin: 15px;
+    height: 250px;
+    width: 100%;
+    display: block; /* Assure que l'image ne génère pas d'espace en dessous */
+}
+
+.content ul li a {
+    display: block; /* Assure que le lien occupe tout l'espace de l'élément */
+    position: relative; /* Permet de positionner le texte par rapport au lien */
+}
+
+.content ul li a p {
+    background-color: transparent;
+    position: absolute;
+    font-size: 35px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; /* Ajustez la couleur du texte pour qu'il soit lisible sur l'image */
+    background-color: rgba(0, 0, 0, 0.5); /* Optionnel : ajoute un fond semi-transparent pour améliorer la lisibilité */
+    padding: 5px; /* Optionnel : ajoute un peu de padding autour du texte */
+}
